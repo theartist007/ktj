@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Signup  |  Kshitij 2019</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type='text/css' href='view.css'>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Oilbats;
+    src: url(OilBats.ttf);
+}
+html {
+    background-image: url('Ktj Bg.jpeg');
+    background-repeat: repeat;
+    z-index: 1;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.img {
+    text-align: : center;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Style the header */
+.header {
+    background-image: url('Ktj Bg.jpeg');
+    background-repeat: none;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+     /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+    width: 50%;
+    left:0;
+    position: sticky;
+    background-color: #370125;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+    float: right;
+    background-color: #120125;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+    .column.side {
+        position: relative;
+    }
+}
+button {
+    background-color: #ffff99;
+    color: #000000;
+    padding: 11px 17px;
+    margin: 8px 4px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #ff99cc;
+    color:#ffffff;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <img src="Kshitij.jpg" style="width:100%; height:300px;">
+</div>
+
+<div class="row">
+  <div class="column side">
+      <img src="Icon.jpg" class="img"><br>
+      <div style="font-family: Oilbats; font-size: 40px; text-align: center; color : #ffff99;">Welcome to Asia's <b>LARGEST</b><br>Techno-Management Fest..!!</div><br><br>
+     <div style="font-family: Roboto; font-size: 36px; text-align: center; color:#ff99cc;"><b>FLASHBACK : KSHITIJ 2018</b>
+        <hr style="color: #FFFFFF; width: 80%;"></div>
+    <img src="left1.jpeg" style="text-align: right; width: 100%; height: auto;">
+    <hr style="color: #FFFFFF; width: 90%;">
+    <img src="ktj fill.jpg" style="width: 100%; height: 450px; text-align: center;"><br><br><br><br><br><br><br>
+    <div style="color: #ffffff; font-size: 28px; text-decoration-style: none;">For more info, click on the icon : <a href="https://www.facebook.com/ktj.iitkgp/"><img src="facebook.png" width="25px" height="25px"></a></div>
+  </div>
+  <div class="column middle" style="background-color:#120125;">
+      <div style="font-family: Oilbats; font-size: 25px; font-weight: bold; text-align: center; color : #ffff99;">Hola..!!<br>
+      If you are a half-glass full person, seize this oppurtunity..!!</div><br><br>
+    <div style="font-family: Oilbats; font-size: 20px; text-align: center; color : #ff99cc;">Enroll in the Web Development course, learn the skills and work, straight from the horse's mouth..!!</div><br>
+    <div style="font-family: Roboto; font-size: 20px; color:#FFFFFF;">If you have already signed up, Click to Login: <a href="index.html">    <button style="width:auto;">Login</button></a> </div>
+    <div style="font-family: Roboto; font-size: 20px; color:#FFFFFF;">Else, just fill out this simple form, and you are good to go.</div>
+
+    <hr>
+    <div id="form_container">
+                        
+            <ul style="list-style-type: none;">
+             <div class="fs1">
+                    <li class="fieldset">
+            <h3>Personal Details</h3>
+            <p></p>
+        </li>       
+
+        <li  >
+        <label class="field" for="element_1">Name </label><br>
+        <p class="guidelines" ><small>So, what do we call you ??</small></p> <br>
+        <div style="text-indent: 20px;">
+            <label style="color: #ff99cc;">First</label>
+            <input id="element_1_1" name= "First" class="" required maxlength="255" size="23" value=""/>
+        </div><br>
+        <div style="text-indent: 20px;">
+            <label style="color: #ff99cc;">Last</label>
+            <input id="element_1_2" name= "Last" class="entry" required maxlength="255" size="25" value=""/>
+        </div>
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_2">Nationality </label><br>
+        <p class="guidelines" style="text-align: : right;" ><small>Where do you come from ??</small></p> <br>
+        <div>
+            <input id="element_2" name="Nationality" required class="entry" type="text" maxlength="255" value=""/> 
+        </div><p class="guidelines" style="text-align: : right;" >        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_16">Gender </label>
+        <div><br><p class="guidelines" ><small>Are you a boy ?? Ok. A girl, maybe ??</small></p> 
+            <input id="element_16_1" name="Gender" required class="radio" type="radio" value="1" />
+<label class="choice" for="element_16_1" style="color: #ff99cc;">Male</label>
+<input id="element_16_2" name="Gender" class="radio" type="radio" value="2" />
+<label class="choice" for="element_16_2" style="color: #ff99cc;">Female</label>
+
+        </div>
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_4">Roll Number </label><br>
+        <p class="guidelines" ><small>Make sure that you input 9 characters.</small></p> 
+        <br>
+        <div>
+            <input id="element_4" name="rollno" required class="entry" type="text" maxlength="255" value=""/> 
+        </div>        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_3">Date Of Birth </label><br>
+        <p class="guidelines" ><small>When is your birthday ?? Ready for a treat, eh ?</small></p> <br>
+        <div>
+            <label for="element_3_1" style="color: #ff99cc;" >DD :&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input id="element_3_1" name="DD" required class="entry" size="2" maxlength="2" value="" type="text"> /
+            </div><br>
+        <div>
+            <label for="element_3_2" style="color: #ff99cc;">MM   :&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+            <input id="element_3_2" name="MM" required class="entry" size="2" maxlength="2" value="" type="text"> /
+            </div><br>
+        <div>
+            <label for="element_3_3" style="color: #ff99cc;">YYYY :</label>
+            <input id="element_3_3" name="YYYY" required class="entry" size="4" maxlength="4" value="" type="text">
+            
+        </div>
+        </li> 
+        <hr style="width: 100%;">      
+        </div>
+        <div class="fs2">
+        <li class="fieldset">
+            <h3>Login Details</h3>
+            <p></p>
+        </li>   
+
+        <li  >
+        <label class="field" for="element_7">Username </label>
+        <div>
+            <input id="element_7" name="Username" required class="entry" type="text" maxlength="255" value=""/> 
+        </div><p class="guidelines" ><small>Make sure it of atleast 8 characters. Else, it won't be accepted.</small></p> 
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_8">Password </label>
+        <div>
+            <input id="element_8" name="Password" required class="entry" type="password" maxlength="255" value=""/> 
+        </div><p class="guidelines" ><small>Make sure it is of atleast 8 characters, and contains atleast 1 letter, 1 digit, and 1 special character. Also, it shouldn't have any keyspaces.</small></p> 
+        </li>       
+    </div>
+     <hr style="width: 100%;"> 
+    <div class="fs3">
+        <li class="fieldset">
+            <h3>Residential Details</h3>
+            <p></p>
+        </li>       
+        <li  >
+        <label class="field" for="element_17">Hall of Residence </label>
+        <div>
+        <select class="element select large" required id="element_17" name="Hall"> 
+            <option value="" selected="selected"></option>
+<option value="1" >Azad</option>
+<option value="2" >BC Roy</option>
+<option value="3" >BR Ambedkar</option>
+<option value="4" >Gokhale</option>
+<option value="5" >HJB</option>
+<option value="6" >JCB</option>
+<option value="7" >LBS</option>
+<option value="8" >LLR</option>
+<option value="9" >MMM</option>
+<option value="10" >MS</option>
+<option value="11" >MT</option>
+<option value="12" >Nehru</option>
+<option value="13" >Nivedita</option>
+<option value="14" >Patel</option>
+<option value="15" >RK</option>
+<option value="16" >Rani Laxmibai</option>
+<option value="17" >RP</option>
+<option value="18" >SN</option>
+<option value="19" >VS</option>
+
+        </select>
+        </div><p class="guidelines" ><small>Fill out your hall of residence</small></p> 
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_10">Room Number </label>
+        <div>
+            <input id="element_10" required name="Room" class="entry" type="text" maxlength="255" value=""/> 
+        </div> 
+        </li>
+        </div>
+         <hr style="width: 100%;"> 
+        <div class="fs4">
+        <li class="fieldset">
+            <h3>Contact Info</h3>
+            <p></p>
+        </li>       
+
+        <li  >
+        <label class="field" for="element_12">Phone Number </label>
+        <div>
+            <input id="element_12" name="Phone" required class="entry" type="text" maxlength="255" value=""/> 
+            <p class="guidelines" ><small>It must be  of 10 digits</small></p>
+        </div> 
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_13">Your Facebook Address (optional) </label>
+        <div>
+            <input id="element_13" name="facebook class="entry" type="text" maxlength="255" size="50" value="http://"/> 
+        </div><p class="guidelines" ><small>Of the form : "www.facebook.com/xyz" </small></p> 
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_14">Email </label>
+        <div>
+            <input id="element_14" name="Email" required class="entry large" type="text" maxlength="255" value=""/> 
+        </div> 
+        </li>       
+        <br>
+        <li  >
+        <label class="field" for="element_15">Github Handle (Optional) </label>
+        <div>
+            <input id="element_15" name="Github" required class="entry" type="text" maxlength="255" value=""/> 
+        </div><p class="guidelines" ><small>Enter your Github handle name. 
+If you don't have an account, leave it empty.</small></p> 
+        </li><br><br><br>
+        </div>  
+                    <li class="buttons">
+                <input type="hidden" name="form_id" value="10304" />
+                
+                <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+        </li>
+            </ul>
+        </form> 
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
+

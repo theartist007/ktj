@@ -1,0 +1,42 @@
+
+.fieldset {
+	font-family: Oilbats;
+	font-size: 30px;
+	text-align: left;
+	color: #ffffff;
+	padding: 10px;
+}
+.field {
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: left;
+	color: #ffff99;
+	padding:5px;
+	font-weight: bolder;
+}
+.radio {
+	font-family: Arial;
+	font-size: 15px;
+	color: #ff99cc;
+}
+.entry {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+}
+.guidelines {
+	font-family: Arial;
+	font-size: 15px;
+	color:#ffffff;
+	float : right;
+	text-align: right;
+}
+input.large {
+	width: 70%;
+}
+select.large {
+	width: 70%;
+}
+textarea.large {
+	height: 10em;
+}
